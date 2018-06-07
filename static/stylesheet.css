@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: relative !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  #send-form {
+    min-width: auto !important;
+    width: 100% !important;
+  }
+
+  #statistics {
+    min-width: auto !important;
+    width: 100% !important;
+  }
+}
+
+#send-form {
+  min-width: 400px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#send-form textarea {
+  resize: none;
+}
+
+#statistics {
+  min-width: 400px;
+  width: 40%;
+  margin: 0 auto;
+}
